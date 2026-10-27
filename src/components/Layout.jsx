@@ -1,0 +1,1 @@
+import{Outlet}from'react-router-dom';import Nav from './Nav.jsx';export default function Layout(p){return <><Nav {...p}/><Outlet/><footer><div className='container footer-content'><strong>🎬 MovieFinder</strong><span>Powered by OMDb API</span><span>© {new Date().getFullYear()}</span></div></footer></>}
